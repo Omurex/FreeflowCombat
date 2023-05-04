@@ -1,0 +1,34 @@
+{
+    "name": "Player",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "e063ba29-b04b-4008-b781-9dfb81cf6d16",
+            "actions": [
+                {
+                    "name": "Movement",
+                    "type": "Button",
+                    "id": "4dba6e8f-de2c-4f01-a1c4-c846d2c5bea7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8d0c1ecf-bec6-4eba-93f7-30dc99fa4eca",
+                    "path": "<Gamepad>/leftStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
